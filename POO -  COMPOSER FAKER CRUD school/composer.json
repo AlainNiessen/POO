@@ -1,0 +1,20 @@
+{
+    "name": "app/demo",
+    "description": "demo utilisation composer et faker",
+    "type": "project",
+    "require": {
+        "fzaninotto/faker": "^1.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "ISL\\": "src/"
+            
+        }
+    },
+    "authors": [
+        {
+            "name": "Alain Niessen",
+            "email": "alain_niessen@hotmail.com"
+        }
+    ]
+}

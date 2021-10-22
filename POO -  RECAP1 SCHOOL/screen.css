@@ -1,0 +1,63 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+}
+
+div {
+    width: 25rem;
+    height: 30rem;
+    padding: 1rem;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 1rem;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.sectionTitle {
+    font-size: 4rem;
+}
+
+
+/*GENDER STYLE AND ERROR*/
+.male {
+    background-color:lightblue;
+}
+.female {
+    background-color:lightpink;
+}
+.other {
+    background-color:lightgreen;
+}
+.noGender {
+    background-color:yellow;
+}
+.error {
+    color: red;
+}
